@@ -1,0 +1,30 @@
+2025-08-18 14:04:23,363 - INFO - -------------------------------------------------------------
+2025-08-18 14:04:23,364 - INFO - EXTRACTING THE DATA
+
+2025-08-18 14:04:23,365 - INFO - Extracting Data from file path C:\Users\yamin\OneDrive\Frostline\data\raw_data.csv
+2025-08-18 14:04:24,477 - INFO - Extracted 200000 rows
+2025-08-18 14:04:24,477 - INFO - STARTING DATA CLEANING
+
+2025-08-18 14:04:24,477 - INFO - Loading dataset...
+2025-08-18 14:04:24,477 - INFO - Original dataset shape: 200000 Rows and 11 Columns
+2025-08-18 14:04:25,259 - INFO - After dropping duplicates: 200000 Rows and 11 Columns
+2025-08-18 14:04:25,264 - WARNING - Missing ID values: 1994
+2025-08-18 14:04:25,276 - INFO - Cleaned ID column.
+2025-08-18 14:05:40,092 - INFO - Cleaned Name, First Name, and Last Name.
+2025-08-18 14:05:41,847 - INFO - Filled 164120 invalid/missing Age values.
+2025-08-18 14:05:43,464 - INFO - Cleaned Salary. Filled 99946 values.
+2025-08-18 14:05:44,127 - INFO - Fixed 200000 missing JoinDate values.
+2025-08-18 14:05:45,417 - INFO - Cleaned Active column.
+2025-08-18 14:05:46,894 - INFO - Cleaned Department column.
+2025-08-18 14:05:47,972 - INFO - Filled 100115 missing Experience(Years) values.
+2025-08-18 14:05:49,011 - INFO - Cleaned Remote column.
+2025-08-18 14:05:53,412 - INFO - Generated Email addresses.
+2025-08-18 14:05:53,413 - INFO - Standardized column names to uppercase.
+
+2025-08-18 14:05:53,413 - INFO - DATA CLEANING COMPLETE.
+2025-08-18 14:05:53,413 - INFO - -----------------------------------------------
+2025-08-18 14:05:54,647 - INFO - Snowflake Connector for Python Version: 3.14.0, Python Version: 3.10.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-18 14:05:54,648 - INFO - Connecting to GLOBAL Snowflake domain
+2025-08-18 14:05:54,648 - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-18 14:05:54,648 - INFO - THIS CONNECTION IS IN INSECURE MODE. IT MEANS THE CERTIFICATE WILL BE VALIDATED BUT THE CERTIFICATE REVOCATION STATUS WILL NOT BE CHECKED.
+2025-08-18 14:05:56,243 - INFO - THIS CONNECTION IS IN INSECURE MODE. IT MEANS THE CERTIFICATE WILL BE VALIDATED BUT THE CERTIFICATE REVOCATION STATUS WILL NOT BE CHECKED.
